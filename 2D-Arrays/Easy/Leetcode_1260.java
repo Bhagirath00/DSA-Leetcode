@@ -11,6 +11,7 @@ class Solution {
         ans[i][j] = grid[(i + (j + k) / m) % n][(j + k) % m];
       }
     }
+
     return (List) Arrays.asList(ans);
   }
 }
